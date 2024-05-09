@@ -1,0 +1,6 @@
+---
+- hosts: servers
+  become: yes
+  tasks:
+    - name: Install cowsay
+      apt: name=cowsay state=present
