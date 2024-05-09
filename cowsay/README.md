@@ -4,7 +4,7 @@ Test for cowsay before running the playbook using the command module
 
 ```t
 ansible@ansible-ctl:~/cowsay$ ansible servers -a "cowsay It Worked" -u ansible
-192.168.1.58 | FAILED | rc=2 >>
+192.168.1.20 | FAILED | rc=2 >>
 [Errno 2] No such file or directory: b'cowsay'
 ```
 
